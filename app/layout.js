@@ -13,8 +13,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: "Ask the Editor",
-  description: "See your work through an editor's eyes — grounded in the Editorial Compass v2 framework",
+  title: "Ask an Editor",
+  description: "See your work through an editor's eyes",
 };
 
 export default function RootLayout({ children }) {

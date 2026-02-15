@@ -443,20 +443,8 @@ export default function AskTheEditor() {
               letterSpacing: "-0.02em",
             }}
           >
-            Ask the Editor
+            Ask an Editor
           </h1>
-          <span
-            style={{
-              fontSize: 12,
-              fontFamily: sansStack,
-              color: colors.textMuted,
-              fontWeight: 500,
-              letterSpacing: "0.04em",
-              textTransform: "uppercase",
-            }}
-          >
-            Editorial Compass v2
-          </span>
         </div>
         <button
           onClick={resetChat}
@@ -834,10 +822,9 @@ export default function AskTheEditor() {
                 textAlign: "center",
               }}
             >
-              Grounded in the Editorial Compass v2 framework
               {mode === "paper"
-                ? " · Supports text input and PDF upload"
-                : ""}
+                ? "Supports text input and PDF upload"
+                : "Grounded in editorial experience"}
             </p>
           </div>
         </div>
